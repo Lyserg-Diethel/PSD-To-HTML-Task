@@ -3,7 +3,7 @@
 const linksArr = Array.from(document.querySelectorAll("a"));
 const navItemsArr = Array.from(document.querySelectorAll(".navItem"));
 
-const totalArr = [].concat(linksArr.concat(navItemsArr)));
+const totalArr = [].concat(linksArr.concat(navItemsArr));
 
 for(const element of totalArr){
     element.style.cursor = "pointer";
